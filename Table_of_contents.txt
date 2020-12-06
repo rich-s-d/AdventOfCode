@@ -1,0 +1,7 @@
+This summary is to remind myself of notable tasks, functions or code style.
+
+1. Which 2 or 3 numbers in a list equal 2020
+2. Password Validation
+3. Toboggan down slopes through trees
+4. Passport control - Validation and parsing (parsing data to dict, if not conditions, any(), all())
+5. Boarding Passes - Binary Space Partitioning (great use of a recursive function in answers)

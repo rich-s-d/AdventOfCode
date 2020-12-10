@@ -4,4 +4,7 @@ This summary is to remind myself of notable tasks, functions or code style.
 2. Password Validation
 3. Toboggan down slopes through trees
 4. Passport control - Validation and parsing (parsing data to dict, if not conditions, any(), all())
-5. Boarding Passes - Binary Space Partitioning (great use of a recursive function in answers)
+5. Boarding Passes - Binary Space Partitioning (great use of a recursive function in answers)\
+6. On board questionaire - Sets, set.intersection()
+7. Bag Colours - Recursive function again.
+8. Game fix - Accumulator, Instruction Interpreter

@@ -8,3 +8,9 @@ This summary is to remind myself of notable tasks, functions or code style.
 6. On board questionaire - Sets, set.intersection()
 7. Bag Colours - Recursive function again.
 8. Game fix - Accumulator, Instruction Interpreter
+9. Weather forecast - Encryption
+10. Voltage Adaptors - Permutations of possible combinations.
+11. Game of Life problem, empty seats or full seats - deepcopy()
+12. Direction and absolute distance on a plane - Complex numbers
+13. Next Bus - modulus(%), min(key=lambda x:x[1]), Chinese Remainder Theorem (https://fangya.medium.com/chinese-remainder-theorem-with-python-a483de81fbb8)
+14. Bitwise masks.

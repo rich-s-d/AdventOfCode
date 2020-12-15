@@ -14,3 +14,4 @@ This summary is to remind myself of notable tasks, functions or code style.
 12. Direction and absolute distance on a plane - Complex numbers
 13. Next Bus - modulus(%), min(key=lambda x:x[1]), Chinese Remainder Theorem (https://fangya.medium.com/chinese-remainder-theorem-with-python-a483de81fbb8)
 14. Bitwise masks.
+15. Number Game - storing indexes as values in dictionary.

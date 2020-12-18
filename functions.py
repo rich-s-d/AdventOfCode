@@ -17,4 +17,6 @@ occupied_count = sum(
     if (x, y) != (0, 0)
 )
 
+# dictionary.get(). get() is used to avoid key errors, ie it wont fail if the key is not in the dict.
+line = ''.join(replacements.get(c, c) for c in line)
 

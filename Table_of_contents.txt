@@ -15,3 +15,7 @@ This summary is to remind myself of notable tasks, functions or code style.
 13. Next Bus - modulus(%), min(key=lambda x:x[1]), Chinese Remainder Theorem (https://fangya.medium.com/chinese-remainder-theorem-with-python-a483de81fbb8)
 14. Bitwise masks.
 15. Number Game - storing indexes as values in dictionary.
+16. Ticket Translation - lots of parsing.
+17.
+18. Calculation precedence - modified behaviour number class, eval(), re.sub(), super() (pythons take on inheritance)
+19. 

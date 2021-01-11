@@ -19,3 +19,9 @@ This summary is to remind myself of notable tasks, functions or code style.
 17.
 18. Calculation precedence - modified behaviour number class, eval(), re.sub(), super() (pythons take on inheritance)
 19. 
+20.
+21.
+22.
+23.
+24.
+25. Decyption Keys - pow() with modulus as third parameter.

@@ -1,3 +1,5 @@
+# elegant solution from arknave
+
 m = 20201227
 
 def calc(s, p):

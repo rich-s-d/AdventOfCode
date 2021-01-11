@@ -1,20 +1,16 @@
 
-# My overcomplicated answer for part 1.
-# Looked for a better example for part 2 from the the megathread.
-# I was relying too much on conditional if statements. Better to use key validation.
-
 
 def group_passports(txt_file):
-
-    #    Groups passports based on a single blank line of seperation in text file.
-
+    '''
+    Groups passports based on a single blank line of seperation in text file.
+    '''
     contents = txt_file.read()
     groups = [[line.split(" ") for line in group.split(
         "\n")] for group in contents.split("\n\n")]
     return groups
 
 
-with open(passport_file, 'r') as f:
+with open('./day4.txt', 'r') as f:
     groups = group_passports(f)
     flattened = []
     for group in groups:
@@ -25,9 +21,7 @@ with open(passport_file, 'r') as f:
         flattened.append(new_group)
 
     password_valid = 0
-    password_7fields_but_invalid = 0
-    password_invalid = 0
-
+ 
     for group in flattened:
         count = 0
         condition = 'cid'

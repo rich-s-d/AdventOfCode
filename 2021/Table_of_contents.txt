@@ -1,0 +1,28 @@
+This summary is to remind myself of notable tasks, functions or code style.
+
+1. Which 2 or 3 numbers in a list equal 2020
+2. Password Validation
+3. Toboggan down slopes through trees
+4. Passport control - Validation and parsing (parsing data to dict, if not conditions, any(), all())
+https://hector.dev/2020/12/29/validating-data-in-python-with-cerberus.html
+5. Boarding Passes - Binary Space Partitioning (great use of a recursive function in answers)\
+6. On board questionaire - Sets, set.intersection()
+7. Bag Colours - Recursive function again.
+8. Game fix - Accumulator, Instruction Interpreter
+9. Weather forecast - Encryption
+10. Voltage Adaptors - Permutations of possible combinations.
+11. Game of Life problem, empty seats or full seats - deepcopy()
+12. Direction and absolute distance on a plane - Complex numbers
+13. Next Bus - modulus(%), min(key=lambda x:x[1]), Chinese Remainder Theorem (https://fangya.medium.com/chinese-remainder-theorem-with-python-a483de81fbb8)
+14. Bitwise masks.
+15. Number Game - storing indexes as values in dictionary.
+16. Ticket Translation - lots of parsing.
+17.
+18. Calculation precedence - modified behaviour number class, eval(), re.sub(), super() (pythons take on inheritance)
+19. 
+20.
+21.
+22.
+23.
+24.
+25. Decyption Keys - pow() with modulus as third parameter.

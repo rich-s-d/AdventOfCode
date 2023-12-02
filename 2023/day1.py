@@ -27,4 +27,5 @@ def calculate_sum(data):
 with open("./day1.txt") as f:
     data = [x.strip().split(',') for x in f.read().splitlines()]
 
+
 print(calculate_sum(data))

@@ -47,18 +47,23 @@ def get_length(string):
     return len(matches[0])
 
 
+def get_rows_for_analysis(index, line, data):
+    if index == 0:
+        top_line = "............................................................................................................................................"
+    else:
+        top_line = data[index - 1]
+    if index == 139:
+        bottom_line = "............................................................................................................................................"
+    else:
+        bottom_line = data[index + 1]
+    middle_line = data[index]
+    return bottom_line, middle_line, top_line
+
+
 def calculate_sum(data):
     sum = 0
     for index, line in enumerate(data):
-        if index == 0:
-            top_line = "............................................................................................................................................"
-        else:
-            top_line = data[index - 1]
-        if index == 139:
-            bottom_line = "............................................................................................................................................"
-        else:
-            bottom_line = data[index + 1]
-        middle_line = data[index]
+        bottom_line, middle_line, top_line = get_rows_for_analysis(index, line, data)
 
         lit = iter(enumerate(line))
         for i, column in lit:

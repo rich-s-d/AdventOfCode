@@ -79,7 +79,7 @@ def calculate_sum(data):
 print(calculate_sum(data))
 
 
-#part 2
+#part 2: Not complete - requires a different strategy to fetch numbers around gears.
 
 def detect_gear(data):
     pattern = r"[*]"
@@ -92,17 +92,8 @@ def flatten(nested_list):
     flat_list = [element for sublist in nested_list for element in sublist if len(element) > 1]
     return flat_list
 
-def detect_numbers_around_gear(i, top_line, bottom_line, middle_line):
-    # handle numbers at right hand edge, and numbers with only 2 digits.
-    # if i > 136:
-    #     index_check_list = [i - 1, i, i + 1]
-    # else:
-    #     index_check_list = [i - 1, i, i + 1, i + 2]
-    # if i > 136:
-    #     index_check_list = [i - 1, i, i + 1, i + 2]
-    # else:
-    #     index_check_list = [i - 1, i, i + 1, i + 2, i + 3]
 
+def detect_numbers_around_gear(i, top_line, bottom_line, middle_line):
     pattern = r"\d+"
 
     index_left = i - 1
@@ -141,20 +132,12 @@ def detect_numbers_around_gear(i, top_line, bottom_line, middle_line):
         column_middle_right = middle_line[i-2: index_stop]
         matches.append(re.findall(pattern, column_middle_right))
     
-    # column_top = top_line[index_start: index_stop]
-    # column_bottom = bottom_line[index_start: index_stop]
-    # column_middle = middle_line[index_start: index_stop]
-
-    # matches.append(re.findall(pattern, column_top))
-    # matches.append(re.findall(pattern, column_bottom))
-    # matches.append(re.findall(pattern, column_middle))
     flattened_list = flatten(matches)
     # remove duplicates
     my_set = set(flattened_list)
     # convert back to list
     my_list = list(my_set)
     return my_list
-
 
 
 def calculate_gear_ratio(data):
